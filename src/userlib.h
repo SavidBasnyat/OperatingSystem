@@ -1,0 +1,12 @@
+int printString(char *str);
+int readSector(char *buf, int absSector);
+int readString(char *buf);
+int readChar(char *buf);
+int readfile(char *filename, char *buf);
+int executeProgram(char* name, int segment);
+int deleteFile(char *fname);
+int writeFile(char *fname, char *buffer, int sectors);
+void terminate();
+void yield();
+void showProcesses();
+int kill(int segment);
